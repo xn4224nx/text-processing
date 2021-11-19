@@ -6,6 +6,7 @@ void process_user_inputs(int num_commands, char* commands[])
     char user_input[MAX_BUFFER_SIZE] = "";
       
     // Process the command line
+    // Test modification
     printf("The number of command line arguments is: %d\n\n", num_commands);
     for (int n = 0; n < num_commands; n++)
     {
